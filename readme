@@ -1,0 +1,32 @@
+to Start - node .\index.js
+Following are the queries to call in client
+
+query game {
+  games {
+    id,
+    title,
+    platform
+  }
+ 
+}
+
+mutation newaddGame($game: AddGameInput!) {
+  addGame( game: $game ) {
+    id,
+    title,
+    platform
+  }
+ 
+}
+
+subscription  newsub {
+  gamesAdded   {
+  
+    id
+    title,
+    platform
+  }
+ 
+}
+
+

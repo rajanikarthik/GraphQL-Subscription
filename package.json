@@ -1,0 +1,32 @@
+{
+  "name": "graphql-crash-course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamshaunjp/graphql-crash-course.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamshaunjp/graphql-crash-course/issues"
+  },
+  "homepage": "https://github.com/iamshaunjp/graphql-crash-course#readme",
+  "type": "module",
+  "dependencies": {
+    "@apollo/server": "^4.3.0",
+    "@graphql-tools/schema": "^9.0.12",
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "graphql": "^16.6.0",
+    "graphql-subscriptions": "^2.0.0",
+    "graphql-ws": "^5.11.2",
+    "ws": "^8.11.0"
+  }
+}
